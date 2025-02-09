@@ -203,7 +203,7 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <div class="logo">My University</div>
+        <div class="logo">RD University</div>
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#programs">Programs</a></li>
@@ -214,7 +214,7 @@
     <!-- Hero Section -->
     <div class="hero">
         <div>
-            <h1>Welcome to My University</h1>
+            <h1>Welcome to RD University</h1>
             <p>Your future starts here.</p>
             <a href="#contact" class="cta-button">Join Now</a>
         </div>
@@ -260,17 +260,5 @@
         <p>&copy; 2025 My University | All Rights Reserved</p>
         <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
     </footer>
-
-    <!-- Scroll to Top Button -->
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 </body>
 </html>
